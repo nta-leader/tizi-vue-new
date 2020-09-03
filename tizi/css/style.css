@@ -1,0 +1,245 @@
+a{
+    cursor: pointer;
+}
+.box {
+    border-radius: 0px;
+    border-top-color: #40a87c !important;
+}
+.swal2-container {
+    top: -100px !important;
+}
+.swal2-popup {
+    font-size: 1.5rem !important;
+}
+.skin-blue .main-header .navbar {
+    background-color: #38A87D;
+}
+.modal-backdrop.fade.in {
+    display: none !important;
+}
+/* header */
+div#navbar-collapse {
+    float: right;
+}
+input#navbar-search-input {
+    width: 410px;
+}
+button.header-search{
+    position: absolute;
+    right: 3px;
+    top: 4px;
+    background: none;
+    border: none;
+    color: #246B62;
+    font-size: 17px;
+}
+#header-search{
+    position: relative;
+}
+.search-laptop-sm{
+    display: none;
+}
+.search-tablel{
+    display: none !important;
+}
+.search-mobile{
+    display: none !important;
+}
+#dangtin a{
+    padding: 10px 10px 10px 10px;
+}
+
+button.btn-dt.btn-warning {
+    border: none;
+    padding: 5px 5px;
+    background:#42c190;
+    border-radius: 3px;
+}
+button.btn-dt.btn-warning:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+/* end header */
+
+/* footer */
+
+.main-footer .col{
+    width: 19%;
+    display: inline-block;
+}
+.main-footer h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+.main-footer ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.main-footer ul li a{
+    font-size: 18px;
+    color:black;
+}
+.main-footer ul li a img{
+    width: 100%;
+}
+.chung-nhan{
+    height: 117px;
+    position: absolute;
+}
+.chung-nhan img{
+    width: 100%;
+    max-width: 172px;
+}
+.tizi-about{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #424040;
+}
+/* end footer */
+
+@media(max-width:1199px) and (min-width:992px){
+    
+    input#navbar-search-input {
+        width: 215px;
+        padding-right: 35px;
+    }
+    .nav>li>a {
+        padding: 15px 14px; 
+    }
+}
+@media(max-width:991px) and (min-width:768px){
+    .search-tablel{
+        display: inline-block !important;
+    }
+    div#header-search{
+        display: none;
+    }
+    form.navbar-form.navbar-left {
+        padding: 0px;
+        margin: 0px;
+    }
+    .nav>li>a {
+        padding: 15px 12px; 
+    }
+    /* footer */
+    .main-footer h5{
+        font-size: 15px;
+    }
+    .main-footer ul li a{
+        font-size: 15px;
+    }
+    .tizi-about{
+        font-size: 14px;
+    }
+}
+@media(max-width:767px) and (min-width:376px){
+    .search-mobile{
+        display: inline-block !important;
+    }
+    .fixed .content-wrapper, .fixed .right-side {
+        padding-top: 52px;
+    }
+    .mobile-search{
+        display: inline-block;
+        padding: 0;
+        margin: 0px 0px 0px -15px;
+    }
+    div#header-search{
+        display: none;
+        
+    }
+    form.navbar-form.navbar-left {
+        padding: 0px;
+        margin: 0px;
+    }
+    .nav>li>a {
+        padding: 15px 12px; 
+    }
+    .navbar-custom-menu {
+        position: absolute;
+        top: 0;
+        right: 15px;
+    }
+    /* footer */
+    .main-footer .col{
+        width: 49%;
+        padding-left:30px ;
+    }
+    .chung-nhan{
+        width: 100% !important;
+        height: auto !important;
+        position: relative !important;
+        text-align: center;
+        padding-left: 0px !important;
+    }
+    .chung-nhan img{
+        width: 50% !important;
+    }
+    .main-footer h5{
+        font-size: 15px;
+    }
+    .main-footer ul li a{
+        font-size: 15px;
+    }
+    .tizi-about{
+        font-size: 14px;
+    }
+}
+@media(max-width:375px) and (min-width:320px){
+    .search-mobile{
+        display: inline-block !important;
+    }
+    button.navbar-toggle.collapsed {
+        display: none;
+    }
+    .navbar-custom-menu {
+        position: absolute;
+        top: 0;
+        right: 2px;
+    }
+    div#header-search{
+        display: none;
+        
+    }
+    form.navbar-form.navbar-left {
+        padding: 0px;
+        margin: 0px;
+    }
+    #dangtin a{
+        padding: 10px 5px 10px 5px;
+    }
+    .nav>li>a {
+        padding: 15px 9px; 
+    }
+    div#navbar-collapse{
+        width: 100%;
+    }
+
+    /* footer */
+    .main-footer .col{
+        width: 49%;
+        padding-left: 5px ;
+    }
+    .chung-nhan{
+        width: 100% !important;
+        height: auto !important;
+        position: relative !important;
+        text-align: center;
+        padding-left: 0px !important;
+    }
+    .chung-nhan img{
+        width: 50% !important;
+    }
+    .main-footer h5{
+        font-size: 15px;
+    }
+    .main-footer ul li a{
+        font-size: 15px;
+    }
+    .tizi-about{
+        font-size: 14px;
+    }
+}
